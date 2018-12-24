@@ -1,0 +1,43 @@
+#日志yaml配置文件
+
+version: 1
+#当前的配置会覆盖调以前的配置
+disable_existing_loggers: True
+
+#格式输出
+formatters:
+    simple:
+        format: "%(asctime)s [%(name)s] [%(levelname)s] :%(levelno)s: %(message)s"
+        datefmt: '%F %T'
+
+#设置handler
+handlers:
+    #控制台配置
+    console:
+        class: logging.StreamHandler
+        level: DEBUG
+        formatter: simple
+        stream: ext://sys.stdout
+    #info等级文件配置
+    info_file_handler:
+        class: logging.handlers.RotatingFileHandler
+        level: INFO
+        formatter: simple
+        filename: C:\Users\djcps\Desktop\uiTest\logs\info.log
+        maxBytes: 10485760 # 10MB
+        backupCount: 20 #most 20 extensions
+        encoding: utf8
+    #error等级文件配置
+    error_file_handler:
+        class: logging.handlers.RotatingFileHandler
+        level: ERROR
+        formatter: simple
+        filename: C:\Users\djcps\Desktop\uiTest\logs\errors.log
+        maxBytes: 10485760 # 10MB
+        backupCount: 20
+        encoding: utf8
+
+#配置使用的handlers
+root:
+    level: INFO
+    handlers: [console, info_file_handler]

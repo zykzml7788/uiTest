@@ -1,0 +1,33 @@
+{
+  "uid" : "b1a8273437954620fa374b796ffaacdd",
+  "name" : "behaviors",
+  "children" : [ {
+    "name" : "CRM登陆",
+    "children" : [ {
+      "name" : "TestLogin.test_login_001",
+      "uid" : "39a7dc2f2e8d065a",
+      "parentUid" : "77d1fcb9ceacc484a7ecb51597f3d5f2",
+      "status" : "passed",
+      "time" : {
+        "start" : 1545051148872,
+        "stop" : 1545051154842,
+        "duration" : 5970
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "TestLogin.test_login_002",
+      "uid" : "f64c2ae8673996c",
+      "parentUid" : "77d1fcb9ceacc484a7ecb51597f3d5f2",
+      "status" : "passed",
+      "time" : {
+        "start" : 1545051154847,
+        "stop" : 1545051156048,
+        "duration" : 1201
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "77d1fcb9ceacc484a7ecb51597f3d5f2"
+  } ]
+}

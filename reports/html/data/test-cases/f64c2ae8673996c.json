@@ -1,0 +1,107 @@
+{
+  "uid" : "f64c2ae8673996c",
+  "name" : "TestLogin.test_login_002",
+  "fullName" : "test_login.TestLogin.test_login_002",
+  "historyId" : "999997e8a8b55881fe3fae8af2f40014",
+  "time" : {
+    "start" : 1545051154847,
+    "stop" : 1545051156048,
+    "duration" : 1201
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "关闭浏览器",
+      "time" : {
+        "start" : 1545051156048,
+        "stop" : 1545051158477,
+        "duration" : 2429
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0
+    } ],
+    "attachments" : [ {
+      "uid" : "fdf8b6eb687ae97c",
+      "name" : "截图",
+      "source" : "fdf8b6eb687ae97c.png",
+      "type" : "image/png",
+      "size" : 158550
+    }, {
+      "uid" : "1cc9c3124128022d",
+      "name" : "Captured log call",
+      "source" : "1cc9c3124128022d.txt",
+      "type" : "text/plain",
+      "size" : 1095
+    } ],
+    "parameters" : [ ],
+    "attachmentsCount" : 2,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true,
+    "stepsCount" : 1
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "CRM登陆"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-096T9GN"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "severity",
+    "value" : "normal"
+  }, {
+    "name" : "testId",
+    "value" : "用例名：登陆CRM——账号错误"
+  }, {
+    "name" : "thread",
+    "value" : "28340-MainThread"
+  }, {
+    "name" : "suite",
+    "value" : "test_login"
+  }, {
+    "name" : "testClass",
+    "value" : "test_login"
+  }, {
+    "name" : "testMethod",
+    "value" : "TestLogin.test_login_002"
+  }, {
+    "name" : "package",
+    "value" : "test_login"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ {
+    "name" : "用例名：登陆CRM——账号错误",
+    "url" : "用例名：登陆CRM——账号错误",
+    "type" : "tms"
+  } ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "f64c2ae8673996c.json",
+  "parameterValues" : [ ]
+}

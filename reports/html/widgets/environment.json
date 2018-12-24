@@ -1,0 +1,22 @@
+[ {
+  "values" : [ "DESKTOP-096T9GN" ],
+  "name" : "node"
+}, {
+  "values" : [ "uname_result(system='Windows', node='DESKTOP-096T9GN', release='10', version='10.0.17134', machine='AMD64', processor='Intel64 Family 6 Model 78 Stepping 3, GenuineIntel')" ],
+  "name" : "uname"
+}, {
+  "values" : [ "AMD64" ],
+  "name" : "machine"
+}, {
+  "values" : [ "Intel64 Family 6 Model 78 Stepping 3, GenuineIntel" ],
+  "name" : "processor"
+}, {
+  "values" : [ "10.0.17134" ],
+  "name" : "version"
+}, {
+  "values" : [ "Windows-10-10.0.17134-SP0" ],
+  "name" : "platform"
+}, {
+  "values" : [ "('64bit', 'WindowsPE')" ],
+  "name" : "architecture"
+} ]

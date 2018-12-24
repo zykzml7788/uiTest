@@ -1,0 +1,39 @@
+<ns0:environment xmlns:ns0="urn:model.commons.qatools.yandex.ru">
+  <id>a97b4af4-3c86-43be-98c2-96261a4702a0</id>
+  <name>Allure environment parameters</name>
+  <parameter>
+    <key>platform</key>
+    <name>platform</name>
+    <value>Windows-10-10.0.17134-SP0</value>
+  </parameter>
+  <parameter>
+    <key>version</key>
+    <name>version</name>
+    <value>10.0.17134</value>
+  </parameter>
+  <parameter>
+    <key>architecture</key>
+    <name>architecture</name>
+    <value>('64bit', 'WindowsPE')</value>
+  </parameter>
+  <parameter>
+    <key>machine</key>
+    <name>machine</name>
+    <value>AMD64</value>
+  </parameter>
+  <parameter>
+    <key>node</key>
+    <name>node</name>
+    <value>DESKTOP-096T9GN</value>
+  </parameter>
+  <parameter>
+    <key>processor</key>
+    <name>processor</name>
+    <value>Intel64 Family 6 Model 78 Stepping 3, GenuineIntel</value>
+  </parameter>
+  <parameter>
+    <key>uname</key>
+    <name>uname</name>
+    <value>uname_result(system='Windows', node='DESKTOP-096T9GN', release='10', version='10.0.17134', machine='AMD64', processor='Intel64 Family 6 Model 78 Stepping 3, GenuineIntel')</value>
+  </parameter>
+</ns0:environment>

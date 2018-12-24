@@ -1,0 +1,116 @@
+{
+  "uid" : "39a7dc2f2e8d065a",
+  "name" : "TestLogin.test_login_001",
+  "fullName" : "test_login.TestLogin.test_login_001",
+  "historyId" : "d915135e1209dac7efe3aff3ebe2814b",
+  "time" : {
+    "start" : 1545051148872,
+    "stop" : 1545051154842,
+    "duration" : 5970
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "初始化启动浏览器",
+      "time" : {
+        "start" : 1545051148874,
+        "stop" : 1545051152270,
+        "duration" : 3396
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "登陆CRM",
+      "time" : {
+        "start" : 1545051152270,
+        "stop" : 1545051154841,
+        "duration" : 2571
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0
+    } ],
+    "attachments" : [ {
+      "uid" : "4ae5f96d30575a6e",
+      "name" : "Captured log call",
+      "source" : "4ae5f96d30575a6e.txt",
+      "type" : "text/plain",
+      "size" : 956
+    } ],
+    "parameters" : [ ],
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true,
+    "stepsCount" : 2
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "CRM登陆"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-096T9GN"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "severity",
+    "value" : "normal"
+  }, {
+    "name" : "testId",
+    "value" : "用例名：登陆CRM——正常场景"
+  }, {
+    "name" : "thread",
+    "value" : "28340-MainThread"
+  }, {
+    "name" : "suite",
+    "value" : "test_login"
+  }, {
+    "name" : "testClass",
+    "value" : "test_login"
+  }, {
+    "name" : "testMethod",
+    "value" : "TestLogin.test_login_001"
+  }, {
+    "name" : "package",
+    "value" : "test_login"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ {
+    "name" : "用例名：登陆CRM——正常场景",
+    "url" : "用例名：登陆CRM——正常场景",
+    "type" : "tms"
+  } ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "39a7dc2f2e8d065a.json",
+  "parameterValues" : [ ]
+}

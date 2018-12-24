@@ -1,0 +1,59 @@
+<ns0:test-suite xmlns:ns0="urn:model.allure.qatools.yandex.ru" start="1545051148872" stop="1545051156048">
+  <name>test_login</name>
+  <labels/>
+  <test-cases>
+    <test-case start="1545051148872" status="passed" stop="1545051154842">
+      <name>TestLogin.test_login_001</name>
+      <attachments>
+        <attachment source="a7f74e8c-8d99-432f-abf7-d8e9bd25924f-attachment.txt" title="Captured log call" type="text/plain"/>
+      </attachments>
+      <labels>
+        <label name="feature" value="CRM登陆"/>
+        <label name="testId" value="用例名：登陆CRM——正常场景"/>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="28340-MainThread"/>
+        <label name="host" value="DESKTOP-096T9GN"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps>
+        <step start="1545051148874" status="passed" stop="1545051152270">
+          <name>初始化启动浏览器</name>
+          <title>初始化启动浏览器</title>
+          <attachments/>
+          <steps/>
+        </step>
+        <step start="1545051152270" status="passed" stop="1545051154841">
+          <name>登陆CRM</name>
+          <title>登陆CRM</title>
+          <attachments/>
+          <steps/>
+        </step>
+      </steps>
+    </test-case>
+    <test-case start="1545051154847" status="passed" stop="1545051156048">
+      <name>TestLogin.test_login_002</name>
+      <attachments>
+        <attachment source="a45f6030-0e5f-438a-87ce-51cabc28762c-attachment.png" title="截图" type="image/png"/>
+        <attachment source="057e18b4-c043-427b-8316-10887d2dcece-attachment.txt" title="Captured log call" type="text/plain"/>
+      </attachments>
+      <labels>
+        <label name="feature" value="CRM登陆"/>
+        <label name="testId" value="用例名：登陆CRM——账号错误"/>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="28340-MainThread"/>
+        <label name="host" value="DESKTOP-096T9GN"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps>
+        <step start="1545051156048" status="passed" stop="1545051158477">
+          <name>关闭浏览器</name>
+          <title>关闭浏览器</title>
+          <attachments/>
+          <steps/>
+        </step>
+      </steps>
+    </test-case>
+  </test-cases>
+</ns0:test-suite>

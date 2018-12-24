@@ -1,0 +1,9 @@
+basePage.py                 43 INFO     访问网址：http://192.168.23.153/
+basePage.py                 66 INFO     正在定位元素信息：定位方式->xpath, value值->/html/body/div[10]/div[2]/div[3]/ul/li[1]
+basePage.py                 99 INFO     点击元素:('xpath', '/html/body/div[10]/div[2]/div[3]/ul/li[1]')
+basePage.py                 66 INFO     正在定位元素信息：定位方式->id, value值->username
+basePage.py                 90 INFO     元素:('id', 'username'),输入文本：1000000
+basePage.py                 66 INFO     正在定位元素信息：定位方式->id, value值->password
+basePage.py                 90 INFO     元素:('id', 'password'),输入文本：dj123456
+basePage.py                 66 INFO     正在定位元素信息：定位方式->xpath, value值->//*[@id="login-zhanghao"]/div[6]/button
+basePage.py                 99 INFO     点击元素:('xpath', '//*[@id="login-zhanghao"]/div[6]/button')
